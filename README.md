@@ -7,6 +7,7 @@
 3. Upload ```weather.php``` to your server. Call the function ```get_weather(city_name)``` to get the weather. Done!
 
 # note
+
 1. The json format from <a>http://openweathermap.org/</a> is like
 
 	```
