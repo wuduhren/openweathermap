@@ -1,12 +1,12 @@
-<h1>It's a free weather api from openweathermap.</h1>
+# A free weather api from openweathermap.
 
-# how to use?
+## how to use?
 
 1. Go to <a>http://openweathermap.org/</a> create an account and get their appID.
 2. Set the global variable ```$_OPEN_WEATHER_MAP_APP_ID``` in ```weather.php``` to your own appID.
 3. Upload ```weather.php``` to your server. Call the function ```get_weather(city_name)``` to get the weather. Done!
 
-# note
+## note
 
 1. The json format from <a>http://openweathermap.org/</a> is like
 
