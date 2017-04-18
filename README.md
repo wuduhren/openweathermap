@@ -1,4 +1,5 @@
 <h1>It's a free weather api from openweathermap.</h1>
+
 # how to use?
 
 1. Go to <a>http://openweathermap.org/</a> create an account and get their appID.
