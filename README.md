@@ -54,14 +54,14 @@
 	    "cod": 200
 	}
 	```
-For simplicity I only return the main weather status.
-You can do much more as you wish!
+	
+	For simplicity I only return the main weather status.You can do much more as you wish!
 
 2. Why free? The <a>http://openweathermap.org/</a> gives us free request of 60 times per hour.
 
-  So we can save the data (from <a>http://openweathermap.org/</a>) of any city we want to our server. And within an hour, we can use that data we saved to reply all the request to our server.
+	So we can save the data (from <a>http://openweathermap.org/</a>) of any city we want to our server. And within an hour, we can use that data we saved to reply all the request to our server.
   
-  If new request comes in, and the data on our server expired (60 minutes after first request), we will request and save new data to our server again.
+	If new request comes in, and the data on our server expired (60 minutes after first request), we will request and save new data to our server again.
   
 3. I saved the main weather data under ```weather/``` in file name of ```city_name.txt```. Which content should only be a simple string like: cloud, rain, clear..., etc.
 
