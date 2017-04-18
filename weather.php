@@ -3,7 +3,7 @@ date_default_timezone_set('Asia/Taipei');
 $_OPEN_WEATHER_MAP_APP_ID = "your openweathermap appID";
 $_OPEN_WEATHER_MAP_URL = 'http://api.openweathermap.org/data/2.5/weather?APPID='.$_OPEN_WEATHER_MAP_APP_ID;
 
-//If file exists and not expire, return weather.
+//If file exists and not expired, return weather.
 //If file does not exist(first time request) or expired, send request to openweathermap.org and save it to local.
 
 
